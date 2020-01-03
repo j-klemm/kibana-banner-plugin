@@ -1,0 +1,23 @@
+#securityfooter {
+  bottom: 0;
+}
+
+#securityheader {
+  top: 0;
+}
+
+.securitybanner {
+  z-index: 2147483637;
+  position: fixed;
+  display: block;
+  width: 100vw;
+  height: 20px;
+  background-color: yellow;
+  align-items: center;
+}
+
+.securitybannertext {
+  font-size: 14px;
+  text-align: center;
+  padding: 3px;
+}

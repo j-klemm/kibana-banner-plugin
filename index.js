@@ -2,7 +2,7 @@ export default function (kibana) {
   return new kibana.Plugin({
     uiExports: {
       hacks: [
-        'plugins/jakobsplugin/jakob'
+        'plugins/securitybanner/banner'
       ]
     }
   });
